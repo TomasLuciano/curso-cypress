@@ -1,0 +1,19 @@
+{
+    "user": {
+        "name": "pushingit",
+        "pass": "123456!"
+    },
+
+    "tasks": {
+        "task1": "Enviar mail",
+        "task2": "Pagar facturas",
+        "task3": "Hacer ejercicio",
+        "task4": "Leer libro",
+        "task5": "Practicar guitarra",
+        "task6": "Sacar turno médico",
+        "task7": "Estudiar",
+        "task8": "Hacer desafío",
+        "task9": "Entregar Desafío",
+        "task10": "Comprar frutas"
+    }
+}

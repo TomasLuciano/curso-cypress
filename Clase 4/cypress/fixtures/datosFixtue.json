@@ -1,0 +1,12 @@
+{
+    "tareas": {
+        "tarea1": "Hacer las compras",
+        "tarea2": "Hacer la tarea",
+        "tarea3": "Estudiar"
+    },
+    "checkout": {
+        "nombre": "Fabrizio",
+        "apellido": "Otranto",
+        "tarejta": "123456"
+    }
+}
