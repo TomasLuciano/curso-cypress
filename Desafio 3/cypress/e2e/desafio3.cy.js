@@ -33,6 +33,6 @@ describe("Desafío3", () => {
         shoppingCartPage.verificarProducto(datos.producto2.nombre);
         shoppingCartPage.verificarPrecio(datos.producto1.nombre,datos.producto1.precio);
         shoppingCartPage.verificarPrecio(datos.producto2.nombre,datos.producto2.precio);
-        shoppingCartPage.verificarTotal();
+        shoppingCartPage.verificarTotal(datos.producto1.precio + datos.producto2.precio);
     });
 });

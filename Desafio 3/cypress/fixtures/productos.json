@@ -1,11 +1,11 @@
 {
     "producto1": {
         "nombre": "Black Jacket",
-        "precio": "$25"
+        "precio": 25
     },
 
     "producto2": {
         "nombre": "Black Socks",
-        "precio": "$10"
+        "precio": 10
     }
 }

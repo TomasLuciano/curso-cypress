@@ -10,11 +10,11 @@ export class ShoppingCartPage {
     };
 
     verificarPrecio (producto,precio) {
-        cy.xpath(`//p[@name="${producto}"]//following-sibling::p`).should('have.text', precio);
+        cy.xpath(`//p[@name="${producto}"]//following-sibling::p`).should('contain', precio);
     };
     
-    verificarTotal () { 
+    verificarTotal (precioTotal) { 
         cy.get(this.totalPriceButton).click();
-        cy.get(this.totalPrice).should('have.text',35);
+        cy.get(this.totalPrice).should('have.text',precioTotal);
     };
 };
