@@ -2,7 +2,8 @@ export class ShoppingCartPage {
    
     constructor () {
         this.totalPriceButton = '[class="chakra-button css-15tuzzq"]';
-        this.totalPrice = '#price'
+        this.totalPrice = '#price';
+        this.checkOutButton = '[class="chakra-button css-17aoa8p"]'
     };
     
     verificarProducto (producto) {
@@ -16,5 +17,9 @@ export class ShoppingCartPage {
     verificarTotal (precioTotal) { 
         cy.get(this.totalPriceButton).click();
         cy.get(this.totalPrice).should('have.text',precioTotal);
+    };
+
+    clickcheckOut () {
+        cy.get(this.checkOutButton).click()
     };
 };
